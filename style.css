@@ -1,0 +1,285 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --white:#ffff;
+    --black:#212529;
+    --orange: #fd7e14;
+}
+:active,:hover,:focus{
+    outline: 0 !important;
+    outline-offset: 0 !important;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: var(--white);
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--orange);
+}
+h2{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Roboto", serif;
+    color: var(--black);  
+}
+h1{
+    font-size: 2rem;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    color: var(--black);
+}
+.address{
+    padding-bottom: 3rem;
+    margin-top: 6rem;
+}
+.navbares{
+    display: flex;
+    list-style-type:none;
+    padding-top: 1rem;
+}
+.navbar{
+    height: 5rem;
+    background-color: var(--orange);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar-brand {
+    font-family: "Roboto", serif;
+    color: var(--white);
+}
+.nav-link{
+    font-size: 1rem;
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    color: var(--white);
+    margin-right: 2rem;
+    transition: 0.4s;
+}
+.nav-link:hover{
+    color: var(--black);
+    border-bottom: 2px solid var(--black);
+}
+.navbar-toggler{
+    display: none;
+    background-color: white;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+.btun{
+    height: 3rem;
+    width:  10rem;
+    border: 1px solid var(--white);
+    border-radius: 50px;
+    background-color: var(--orange);
+    transition: 0.5s;
+    font-size: 0.80rem;
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    color: var(--white);
+}
+.btun:hover{
+    background-color: white;
+    color: var(--orange)
+}
+.nav-links{
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    color: var(--white);
+}
+.offcanvas{
+    background-color: var(--orange);
+}
+.nav-items{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+/* header css */
+.header{
+    background-color: var(--orange);
+}
+.headertext h1{
+    font-size: 4rem;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    color: var(--white);
+}
+.headerimages{
+    margin-top: 3rem;
+}
+.headertext {
+    margin-top: 7rem;
+}
+
+.headertext h2{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--black);
+    font-family: "Roboto", serif;
+    margin-top: 1.2rem;
+}
+/* about */
+.about h1{
+    font-size: 3rem;
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    color: var(--black);
+    margin-left: 2rem;
+}
+/* card */
+.card-body h1{
+    font-size: 1.7rem;
+}
+.card-body p{
+    font-size: 1rem;
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    color: var(--black);
+}
+.card-body a{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--orange);
+}
+.card{
+    margin-top: 2rem;
+}
+/* work */
+.work h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+.btun1{
+    height: 3rem;
+    width: 9rem;
+    font-size: 0.70rem;
+    font-weight: 600;
+    color: var(--black);
+    border: 1px solid var(--orange);
+    border-radius: 50px;
+    background-color: var(--orange);
+    color: var(--white);
+    transition: 0.5s;
+}
+.btun1:hover{
+   background-color: var(--white);
+   color: var(--orange);
+   border-color: var(--orange);
+}
+.button{
+    width: 10rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+/* services */
+.services h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.services p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--black);
+    font-family: "Roboto", serif;
+   margin-top: 2rem;
+   line-height: 1.5rem;
+}
+.services {
+    margin-top: 5rem;
+}
+.services h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--orange);
+    margin-top: 2rem;
+}
+.progress{
+    height: 0.7rem;
+}
+.progress-bar{
+    background-color: var(--orange);
+}
+.head1 h1{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.head2{
+ margin-top: 5rem;
+}
+.footer{
+    background-color: #212529;
+    margin-top: 5rem;
+}
+.footertext h1{
+    font-size: 3rem;
+    color: var(--orange);
+    padding-top: 3rem;
+}
+.footertext p{
+    font-size: 1rem;
+    color: var(--white);
+}
+.footertext i{
+    font-size: 2rem;
+    color: var(--orange);
+    margin-left: 1rem;
+    margin-top: 3rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footertext i:hover{
+    transform: rotatey(90deg);
+}
+.footerbtun button{
+    height: 3rem;
+    width: 9rem;
+    font-size: 0.70rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid var(--white);
+    background-color: transparent;
+    color: var(--white);
+    border-radius: 50px;
+    margin-top: 9rem;
+    margin-left: 2rem;
+    transition: 0.5s;
+}
+.footerbtun button:hover{
+    background-color: var(--orange);
+    color: white;
+}
+.footertext h2{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 4rem;
+}
+.footertext h2 span{
+    color: var(--orange);
+}
+
+@media (max-width:992px) {
+    .navbar-toggler{
+        display: block;
+        box-shadow: 0px;
+    }
+    .navbares{
+        display: none;
+    }
+    .btun{
+        display: none;
+    }
+    .headerimages{
+        width: 100%;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+}
